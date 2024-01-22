@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/c97c54f3-1a4b-40d4-9231-2cf538501a50/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/AppDojoAPI",
+    "appService.deploySubpath": "."
+}
