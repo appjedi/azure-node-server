@@ -9,6 +9,10 @@ mongoose.connect(MongoURL);
 router.get('/', function (req, res, next) {
   res.send("<h1>Hello from Azure</h1>");
 });
+const GC_RELEASE = "2024-01-22";
+router.get('/release', function (req, res, next) {
+  res.send(GC_RELEASE);
+});
 router.get("/profiles", async (req, res) => {
   const data = await Profile.find({});
   console.log(data);
