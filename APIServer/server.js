@@ -13,7 +13,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-const GC_RELEASE = "2024-02-07";
+const GC_RELEASE = "2025-05-22";
 //const MongoURL = "mongodb://localhost:27017/tom";
 const MongoURL = "mongodb+srv://appuser:AppData2022@cluster0.aga82.mongodb.net/tombook";
 mongoose.connect(MongoURL);
